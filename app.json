@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "ios": {
+      "buildNumber" : "3",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "bundleIdentifier": "com.asaravan.readai"
+    },
+    "splash": {
+      "image": "assets/images/splash.png"
+    },
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "NutritionAI",
+    "plugins":  [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+        }
+      ]
+    ],
+    "slug": "NutritionAI",
+    "extra": {
+      "eas": {
+        "projectId": "b8d8bacc-2b56-44fe-909a-419ec3f1819a"
+      }
+    },
+    "owner": "asaravan",
+    "android": {
+      "package": "com.asaravan.readai",
+      "versionCode": 3
+    },
+    "icon": "assets/images/nutrition_logo.png"
+  }
+}
